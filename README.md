@@ -5,9 +5,10 @@ In Python, the threading module provides a very simple and intuitive API for spa
 
 Threads: 
 In computing, a process is an instance of a computer program that is being executed. Any process has 3 basic components:
-•	An executable program.
-•	The associated data needed by the program (variables, work space, buffers, etc.)
-•	The execution context of the program (State of process)
+
++ An executable program.
++ The associated data needed by the program (variables, work space, buffers, etc.)
++ The execution context of the program (State of process)
 
 ![image](https://github.com/Naif-Al-Ajlani/Parallel-Computing-Lab-01/assets/98528261/416e39d5-f4a9-4286-87ff-c78839d7f8be)
 
