@@ -14,13 +14,14 @@ In computing, a process is an instance of a computer program that is being execu
 
 
 Multiple threads can exist within one process where:
-•	A single process may have multiple threads of execution
-•	Useful when an application wants to perform many concurrent tasks on shared data
-•	Threads share memory and other resources
-•	Threads of a process can share the memory of global variables. If a global variable is changed in one thread, this change can be seen by all threads
-•	A thread have local (private) variables which can’t be shared by other threads, so any changes in these variables can’t be seen by other threads.
-•	Threads often need to coordinate actions through synchronization.
-•	Inappropriate synchronization between threads can lead to race conditions problem. 
+
++	A single process may have multiple threads of execution
++	Useful when an application wants to perform many concurrent tasks on shared data
++	Threads share memory and other resources
++	Threads of a process can share the memory of global variables. If a global variable is changed in one thread, this change can be seen by all threads
++	A thread have local (private) variables which can’t be shared by other threads, so any changes in these variables can’t be seen by other threads.
++	Threads often need to coordinate actions through synchronization.
++	Inappropriate synchronization between threads can lead to race conditions problem. 
 
 # Python Example 1:
 
